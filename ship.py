@@ -127,6 +127,7 @@ def ships(num_ships,board):
 
 number_o_ships = randint(1,4)
 list_o_ships = ships(number_o_ships, board)
+print list_o_ships
 #print ship_point(length, direction, board)
 print print_board(board)
 
